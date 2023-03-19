@@ -19,10 +19,10 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    Tuong-Khang:
-      name:           Tuong-Khang
-      site:           tuong-khang.github.io
-      avatar:         /assets/images/avt.png
+    tuongkhang:
+      name:           tuongkhang
+      #site:           tuong-khang.github.io
+      avatar:         assets/images/avt.png
       bio:            "Hi, I am Khang, the author of KhangBlog, its blog is here I share my view in Machine Learning, experiments in Kaggle competitions. I hope you like it!"
       email:          khangdltuit@gmail.com
       twitter:        https://twitter.com/tuongkhangg
@@ -36,8 +36,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: Tuong-Khang
-      avatar: /assets/images/avt.png
+      author: tuongkhang
+      avatar: assets/images/avt.png
       
   # all pages
   - scope:
