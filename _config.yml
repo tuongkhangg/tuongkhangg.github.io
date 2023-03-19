@@ -37,7 +37,7 @@ defaults:
     values:
       layout: post
       author: Tuong-Khang
-      avatar: /assets/images/avatar1.jpg
+      avatar: https://raw.githubusercontent.com/tuong-khang/tuong-khang.github.io/main/assets/images/logo.jpg
       
   # all pages
   - scope:
