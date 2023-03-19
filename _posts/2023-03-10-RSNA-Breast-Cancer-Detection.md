@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RSNA Screening Mammography Breast Cancer Detection"
-author: tuong-khang
+author: Tuong-Khang
 categories: [ kaggle, CV ]
 image: assets/images/rsna-breast.gif
 tags: [kaggle, CV]
