@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    tuongkhang:
+    Tuong-Khang:
       name:           Khang Duong
       site:           
       avatar:         /assets/images/avt.png
@@ -36,7 +36,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: tuongkhang
+      author: Tuong-Khang
       avatar: /assets/images/avatar1.jpg
       
   # all pages
