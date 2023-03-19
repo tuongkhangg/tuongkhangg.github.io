@@ -6,7 +6,7 @@ favicon: 'assets/images/favicon.ico'
 baseurl: ''
 disqus: 'demowebsite'
 email: 'khangdltuit@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,12 +19,12 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    tuongkhang:
       name:           Khang Duong
       site:           
       avatar:         /assets/images/avt.png
       bio:            "Hi, I am Khang, the author of KhangBlog, its blog is here I share my view in Machine Learning, experiments in Kaggle competitions. I hope you like it!"
-      email:          wowthemesnet@gmail.com
+      email:          khangdltuit@gmail.com
       twitter:        https://twitter.com/tuongkhangg
 
  
@@ -36,7 +36,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: tuongkhang
       avatar: /assets/images/avatar1.jpg
       
   # all pages
