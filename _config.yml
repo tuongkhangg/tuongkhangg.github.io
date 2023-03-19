@@ -20,7 +20,7 @@ plugins:
   
 authors:
     Tuong-Khang:
-      name:           Khang Duong
+      name:           Tuong-Khang
       site:           /author-khang.html
       avatar:         https://raw.githubusercontent.com/tuong-khang/tuong-khang.github.io/main/assets/images/avt.png
       bio:            "Hi, I am Khang, the author of KhangBlog, its blog is here I share my view in Machine Learning, experiments in Kaggle competitions. I hope you like it!"
