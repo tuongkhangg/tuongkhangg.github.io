@@ -2,17 +2,17 @@
 
 Name Name:
   name        : "Khang Duong"
-  uri         : "http://name.com"
+  #uri         : "http://name.com"
   email       : "khangdlt1010@gmail.com"
   bio         : "Khang"
   avatar      : "bio-photo-2.jpg"
-  twitter     : "https://twitter.com/tuongkhangg"
-  google_plus : "Name"
+  twitter     : "tuongkhangg"
+  #google_plus : "Name"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+#Name2 Name2:
+#  name        : "Name2 Name2"
+#  email       : "name2@name2.com"
+#  bio         : "I ordered what?"
+#  avatar      : "bio-photo.jpg"
+#  twitter     : "name2"
+#  google_plus : "Name"
