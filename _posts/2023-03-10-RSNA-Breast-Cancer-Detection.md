@@ -8,10 +8,22 @@ tags:
 ---
 
 
-## Goal of the Competition
+***Goal of the Competition***
 The goal of this competition is to identify breast cancer. You'll train your model with screening mammograms obtained from regular screening.
 
 Your work improving the automation of detection in screening mammography may enable radiologists to be more accurate and efficient, improving the quality and safety of patient care. It could also help reduce costs and unnecessary medical procedures.
+
+# Table of contents
+1. [Overview](#overview)   
+    .....Context  
+2. [Data Analysis](#analysis)  
+    .....Overview  
+    .....Key observation  
+    .....Key observations about METADATA  
+    .....View Features  
+    .....Age Distribution  
+    .....Label distribution  
+3. [Methods](#method)
 
 # 1.Overview: <a name="overview"></a>
 
@@ -25,19 +37,6 @@ The competition host, the Radiological Society of North America (RSNA) is a non-
 Your efforts in this competition could help extend the benefits of early detection to a broader population. Greater access could further reduce breast cancer mortality worldwide.
 
 "kaggle: RSNA Screening Mammography Breast Cancer Detection"
-
-# Table of contents
-1. [Overview](#overview)  
-    .....Goal  
-    .....Context  
-2. [Data Analysis](#analysis)  
-    .....Overview  
-    .....Key observation  
-    .....Key observations about METADATA  
-    .....View Features  
-    .....Age Distribution  
-    .....Label distribution  
-3. [Methods](#method)
 
 # 2. Data Analysis: <a name='analysis'></a>
 
