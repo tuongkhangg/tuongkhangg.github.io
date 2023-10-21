@@ -57,9 +57,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : tuongkhangg
 facebook:
-  username               :
+  username               : iamtkhang
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -88,14 +88,14 @@ I'm best reached via email. I'm always open to interesting conversations and col
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "khangdlt1010@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "iamtkhang"
   foursquare       :
   github           : "tuong-khang"
   google_plus      :
@@ -103,7 +103,7 @@ I'm best reached via email. I'm always open to interesting conversations and col
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "tuong-khang-duong-le"
   #orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
