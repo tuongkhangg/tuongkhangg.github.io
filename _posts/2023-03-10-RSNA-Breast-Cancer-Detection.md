@@ -1,7 +1,7 @@
 ---
 title:  "RSNA Screening Mammography Breast Cancer Detection"
 date: 2023-03-10
-#permalink: /posts/2023/03/RSNA-Cancer-Detection/
+permalink: /posts/2023-03-10-RSNA-Cancer-Detection/
 tags: 
     - kaggle
     - cv
