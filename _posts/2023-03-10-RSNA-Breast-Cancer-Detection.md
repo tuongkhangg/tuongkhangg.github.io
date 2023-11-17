@@ -91,9 +91,13 @@ Both MLO and CC views are known as standard views. These views are the ones most
 In addition to the standard views, there are other significantly less utilized views in the training set, which are separate and distinct from MLO and CC:
 
 * **AT** - Unknown - possibly Tangent View?
+<img src="../../images/rsna_breast/view_at.png" >
 * **ML** - Mediolateral View - taken from the center of the chest between the breasts, looking outwards. Usually used in instances where the Mediolateral Oblique View has not been taken or is not possible. This is a favored view when the oblique view is not available, as most disease processes occur on the lateral side of the breast, and therefore will be closer to the film allowing for a clearer image of the pathology.
+<img src="../../images/rsna_breast/view_ml.png" >
 * **LM** - Lateromedial View - similar to the Mediolateral View, except the view is taken from the arms pointing inwards towards the chest. This view is not as ideal, again due to the tendency for pathology to occur on the lateral side of the breast.
-* **LMO** - Lateromedial Oblique View - similar to MLO except taken from the outside of the body pointing inwards.
+<img src="../../images/rsna_breast/view_lm.png" >
+* **MLO** - Lateromedial Oblique View - similar to MLO except taken from the outside of the body pointing inwards.
+<img src="../../images/rsna_breast/view_mlo.png" >  
 
 **Age Distribution**
 
