@@ -1,7 +1,7 @@
 ---
 title:  "RSNA Screening Mammography Breast Cancer Detection"
 date: 2023-03-10
-permalink: /posts/2023/03/RSNA-Cancer-Detection/
+#permalink: /posts/2023/03/RSNA-Cancer-Detection/
 tags: 
     - kaggle
     - cv
@@ -99,11 +99,11 @@ In addition to the standard views, there are other significantly less utilized v
 
 The patient's age in years. The average age is 58 years old, with the vast majority of the patients having between 50 and 65 years old. There are a few outliers with very young patients (26-30 years old), as well as a few more senior patients (89 years old).
 
-<img src="../assets/images/rsna_breast/age_distribution.png" >
+<img src="../images/rsna_breast/age_distribution.png" >
 
 Furthermore, tagehe youngest patient to have cancer is 38 years old, while the mean of those patients is 63 years old.
 
-<img src="../assets/images/rsna_breast/age_distribution_02.png" >
+<img src="../images/rsna_breast/age_distribution_02.png" >
 
 **Label distribution**
 <!--<img src="../assets/images/rsna-22/label_distribution.png" >-->
