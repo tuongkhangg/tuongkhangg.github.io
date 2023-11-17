@@ -10,7 +10,7 @@ redirect_from:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Hi, I'm Khang Duong, a computer scientist. I grew up in a small town, then come to Ho Chi Minh city to continue my student life. I am proud to have recently completed my Bachelor's degree in Computer Science at the University of Information Technology, Hochiminh Vietnam National University.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;My research interest is in medical image processing, computer vision, machine learning and deep leanring. Throughout my academic journey, I have undertaken a range of impactful projects that are closely aligned with my research interests, namely:
+&nbsp;&nbsp;&nbsp;&nbsp;My research interest is in medical image processing, computer vision, machine learning and deep learning. Throughout my academic journey, I have undertaken a range of impactful projects that are closely aligned with my research interests, namely:
 1. <ins>Brain Segmentation on MRI Images:</ins>  developed model segmented tumor on 2D image brain, making processing easier. Input is 2D MRI image, the output is a segmented tumor section on the image.
 
 2. <ins>HCM AI Challenge - Detecting vehicles in video:</ins> developed an end-to-end model. The model could detect objects like
