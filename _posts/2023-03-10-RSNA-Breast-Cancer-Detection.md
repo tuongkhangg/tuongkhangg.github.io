@@ -137,4 +137,4 @@ This strategy aims to focus on integrating the combined .CSV and .PNG data distr
 
 ### Auxiliary Multi-view Model <a name='multiview'></a>
 
-
+<img src='../../images/rsna_breast/aux_multi_view.png'>
