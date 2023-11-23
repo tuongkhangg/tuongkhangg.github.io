@@ -24,9 +24,9 @@ Your work improving the automation of detection in screening mammography may ena
     .....Age Distribution  
     .....Label distribution  
 3. [Methods](#method)  
-    .....Auxiliary Network Model(#auxiliary)
+    .....Auxiliary Network Model(#auxiliary)  
     .....Auxiliary Multi-view Model(#multiview)    
-    .....Model based on EfficientNetV2S  
+    .....Single View Model(#single)
 
 # 1.Overview: <a name="overview"></a>
 
@@ -117,13 +117,13 @@ The classes are highly unbalanced which the labeled data is 1158 images.
 # 3. Methods <a name='method'></a>
 Some solutions was mentioned with distinct approaches in this competition:
 
-* Firstly, we can combine metadata and images data to an auxiliary network with:
+* First method - we can combine metadata and images data to an auxiliary network with:
     * Metadata network could be a neural network with input is metadata
     * Images network (backbone could be Resnet, EfficientNet, EfficinetNet v2, RexNext, ...)
     * Concatenate both output to predict.
 
-* Secondly, we can use the classification model with segmentation header
-* Finally, we can use Multi-view Model cause we have muti-view images (MLO view, CC view, AT view, ... )
+* Second method - using Multiview-model with metadata to compare between left and right view of image.
+* Finally, I approached with the basic model based on ROI crop dataset.
 
 So, I demonstrate each method, explain the idea, drawback and why it works.
 
@@ -138,3 +138,23 @@ This strategy aims to focus on integrating the combined .CSV and .PNG data distr
 ### Auxiliary Multi-view Model <a name='multiview'></a>
 
 <img src='../../images/rsna_breast/aux_multi_view.png'>
+
+Specifically, the MultiLateralityDualView model is made to examine and contrast the left and right breasts in order to detect malignancy. Our observations showed that different machine IDs were linked to significantly diverse visual styles. But with the information related to a certain patient, the visual style is always the same. Moreover, an interesting trend was observed: the majority of individuals only had cancer on one side of their breast. Taking these realizations into account, we have deliberately given the model the ability to evaluate and contrast the left and right sides, improving its capacity to more accurately forecast the existence of cancer.  
+
+Unfortunately, this idea came to us in the later rounds of the competition, which meant we didn't have enough time to fully optimize and fine-tune the model. We used the complete dataset to train a model in spite of this time restriction, and we turned it in by the deadline. However, we continue to have faith in the MultiLateralityDualView model's potential and see it as important for future research and development directions.
+
+### Single View Model <a name='single'></a>
+
+<img src='../../images/rsna_breast/single_model.png'>
+
+* **ROI Cropping**: 
+The ROI cropping technique was used with great care to greatly improve the texture and detail retention at a set resolution. Using the YOLOX-nano 416x416 for ROI detection, this method has a clear benefit. When a deep learning (DL) detector is used instead of rule-based techniques, the result is bounding boxes with a more consistent aspect ratio and a smaller size. The DL detector is particularly good at narrowing its focus to the breast area, which helps to produce a more precise and accurate detection result.  
+* **Augmentation**  
+* **Upsampling**:  In all of my experiments, I upsample affirmative cases in every epoch.  
+    
+    Stabilizing training depends on ensuring that a batch or iteration has at least one positive case. When I set the number of affirmative cases per batch to 0.5, I've seen difficulties with training. Changing the upsampling ratio affects the prediction distribution and cross-validation scores differently for different backbones and hyperparameter selections. In spite of this, I would rather have the lowest positive-to-negative ratio that still ensures at least one positive case every atch and roughly matches the actual data distribution.  
+      
+    In the early epochs, a higher positive-to-negative ratio helps with faster training. To solve prediction distribution and threshold difficulties, I have experimented with linearly varying the positive-to-negative ratio across epochs, especially with EffB4. Nevertheless, I saw no change in the cross-validation findings in spite of these attempts.
+
+*If you have any new research approach, I'd love to hear from you.*
+
