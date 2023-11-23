@@ -24,8 +24,8 @@ Your work improving the automation of detection in screening mammography may ena
     .....Age Distribution  
     .....Label distribution  
 3. [Methods](#method)  
-    .....Multi-view model  
-    .....Combine of Segmentation and Classification  
+    .....Auxiliary Network Model(#auxiliary)
+    .....Auxiliary Multi-view Model(#multiview)    
     .....Model based on EfficientNetV2S  
 
 # 1.Overview: <a name="overview"></a>
@@ -115,7 +115,7 @@ Furthermore, tagehe youngest patient to have cancer is 38 years old, while the m
 The classes are highly unbalanced which the labeled data is 1158 images.
 
 # 3. Methods <a name='method'></a>
-We have a some solution with distinct approaches:
+Some solutions was mentioned with distinct approaches in this competition:
 
 * Firstly, we can combine metadata and images data to an auxiliary network with:
     * Metadata network could be a neural network with input is metadata
@@ -126,3 +126,15 @@ We have a some solution with distinct approaches:
 * Finally, we can use Multi-view Model cause we have muti-view images (MLO view, CC view, AT view, ... )
 
 So, I demonstrate each method, explain the idea, drawback and why it works.
+
+### Auxilinary Network Model <a name='auxiliary'></a>
+<img src="../../images/rsna_breast/auxliary_loss.png">
+
+This strategy aims to focus on integrating the combined .CSV and .PNG data distributions in order to improve the main classifier's overall performance.  
+
+1. Image Head: A specific type of model made to process photos.  
+2. Auxiliary Head: This includes a simple linear model designed specifically to manage metadata.  
+
+### Auxiliary Multi-view Model <a name='multiview'></a>
+
+
