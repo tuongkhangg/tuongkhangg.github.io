@@ -6,6 +6,9 @@ main:
 #  - title: "Publications"
 #    url: /publications/
 
+  - title: "List 100"
+    url: /list-100/
+
   - title: "CV"
     url: /cv/
 
