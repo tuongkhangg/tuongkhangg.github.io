@@ -24,9 +24,9 @@ Your work improving the automation of detection in screening mammography may ena
     .....Age Distribution  
     .....Label distribution  
 3. [Methods](#method)  
-    .....Auxiliary Network Model(#auxiliary)  
-    .....Auxiliary Multi-view Model(#multiview)    
-    .....Single View Model(#single)
+    .....[Auxiliary Network Model](#auxiliary)  
+    .....[Auxiliary Multi-view Model](#multiview)    
+    .....[Single View Model](#single)
 
 # 1.Overview: <a name="overview"></a>
 
