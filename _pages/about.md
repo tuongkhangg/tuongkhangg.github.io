@@ -22,4 +22,4 @@ travel websites and news sources such as vnexpress.vn, tuoitre.vn, ...
 
 4. <ins>RSNA Screen mammography breast cancer detection:</ins> developed a model to classify whether a patient has cancer or not on screening mammography.
 
-&nbsp;&nbsp;&nbsp;&nbsp;***Currently, I'm seeking for a MS or PhD position***, which will provide the platform to deepen my expertise and make substantive contributions to the scientific community. I'm best reached via email (khangdlt1010@gmail.com). I'm always open to interesting conversations and collaboration.
+&nbsp;&nbsp;&nbsp;&nbsp;***Currently, I'm a grad student in the MISL (Sungkyunkwan University)***, which will provide the platform to deepen my expertise and make substantive contributions to the scientific community. I'm best reached via email (khangdlt1010@gmail.com). I'm always open to interesting conversations and collaboration.
