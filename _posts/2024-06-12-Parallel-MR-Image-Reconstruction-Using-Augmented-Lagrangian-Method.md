@@ -14,4 +14,4 @@ tags:
 1. [Why do we need to study this paper](#part1)   
 
 # 1.Why do we need to study this paper: <a name="part1"></a>
-First of all, the first thing always comes to my mind when I read the paper is " Why do I need to study it ? What is the improvement?"
+First, the first thing that always comes to my mind when I read a paper is, " Why do I need to study it? What is the improvement?"
