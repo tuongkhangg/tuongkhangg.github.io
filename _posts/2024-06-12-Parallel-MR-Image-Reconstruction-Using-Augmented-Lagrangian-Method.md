@@ -1,7 +1,7 @@
 ---
 title: "Parallel MR Image Reconstruction Using
 Augmented Lagrangian Method"
-date: 2024-10-06
+date: 2024-06-12
 tags:
 - Signal Processing
 - MRI
