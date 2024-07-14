@@ -9,10 +9,12 @@ author_profile: true
 
 Education
 ======
+* Comnined MS - PhD in Biomedical Engineering, 2024 - now
 * B.S. in Computer Science, 2018
 
 Project
 ======
+* 4D Flow MRI Imaging
 * Brain MRI Segmentation
 
 <!--
